@@ -7,6 +7,140 @@
   pointer-events: none;
 }
 
+
+.main{
+  height: 660px;
+  width: 1350px;
+  float: left;
+}
+.main1{
+  height: 660px;
+  width: 846px;
+  background: #eef1f6;
+  float: left;
+}
+.mainb{
+  position: absolute;
+  margin-top: -550px;
+  margin-left: 200px;
+}
+.main2{
+  height: 660px;
+  width: 500px;
+  float: left;
+  overflow: hidden;
+  position: relative;
+}
+.img22{
+  height: 660px;
+  width: 500px;
+  overflow: hidden;
+  position: relative;
+
+} 
+.img50{
+  background-color: #0153dc;
+  height: 660px;
+  width: 846px;
+  background: cover;
+}
+input{
+  height: 40px;
+  width: 300px;
+  border-radius: 30px;
+  padding-left: 20px;
+  border: none;
+}
+.min{
+position: absolute;
+margin-left: 900px;
+margin-top: 150px;
+}
+
+#Home{
+  height: 800px;
+  width: 1340px;
+  background: #eeeeee;
+}
+#home1{
+  height: 800px;
+  width: 440px;
+  background: #ffffff;
+  float: left;
+}
+#hom{
+  height: 800px;
+  width: 900px;
+  background: #eeeeee;
+  float: left;
+  
+}
+#mid{
+  height: 700px;
+  width: 440px;
+  background: #ffffff;
+  margin: 25px;
+  border: 1px solid white;
+}
+.mid1{
+  height: 87px;
+  width: 380px;
+  background: #eeeeee;
+  float: left;
+  /* border-bottom: 1px solid black; */
+}
+.mi{
+  height: 87px;
+  width: 80px;
+  background: #eeeeee;
+  float: left;
+}
+.m{
+  height: 87px;
+  width: 300px;
+  background: #eeeeee;
+  float: left;
+}
+.ho{
+  height: 150px;
+  width: 400px;
+  background:white ;
+  margin-left: 120px;
+  float: left;
+  margin-top: 20px;
+}
+.hoe{
+  margin-top: -60px;
+  margin-left: -290px;
+}
+#message{
+  height: 200px;
+  width: 300px;
+  background: white;
+  border: 1px solid black;
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
