@@ -18,6 +18,7 @@ import { Link, useLocation } from 'react-router-dom';
 function Home() {
   const location=useLocation();
   const username=new URLSearchParams(location.search).get('username');
+  console.log(username)
   const [show,setShow]=useState(false);
   const handelClose=()=>setShow(false);
   const handelShow=()=>setShow(true);
@@ -46,6 +47,7 @@ function Home() {
                 <Nav.Link href="Service">Service</Nav.Link>
                 <Nav.Link href="Faq">Faq</Nav.Link>
                 <Nav.Link href="Shedule">Shedule</Nav.Link>
+                <Nav.Link href="Logon">Logon</Nav.Link>
                 <NavDropdown title="Link" id="navbarScrollingDropdown">
                 <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
                 <NavDropdown.Item href="#action4">
@@ -136,6 +138,8 @@ function Home() {
     </Row>
 
         {/* card end */}
+  welcome:{username}
+
     </div>
   )
 }

@@ -19,11 +19,10 @@ const handelLogin=()=>{
 <p>email:</p>
   return (
     <div className='main'>
-       <Link to="/Home">
-      <i class="fa fa-fast-backward" aria-hidden="true"></i>
-      </Link>
+      
         <div className='main1'>
-          <img className='img50' src='img-23.png'/>
+        
+          <img className='img50' src='img-23.png'alt='hg'/>
       <div className='mainb'>
         <h1>Signin</h1>
        
@@ -32,7 +31,7 @@ const handelLogin=()=>{
       </div>
         <div style={{marginTop:"30px"}}>
           <input type='password'placeholder='Password' value={password} onChange={(e)=>setPassword(e.target.value)}/>
-          {error && <p style={{color:"red"}}>error</p>}
+          {error && <p style={{color:"gray"}}>error</p>}
 
         </div>
         <div>
@@ -48,7 +47,7 @@ const handelLogin=()=>{
 
 
       <div className='main2'>
-        <img className='img22' src='img-22.jpg'/> 
+        <img className='img22' src='img-22.jpg' alt='hg'/> 
       </div>
       <div className='min'>
       <Link to="/Home">
@@ -60,6 +59,7 @@ const handelLogin=()=>{
       </Link>
       <h1 style={{marginLeft:"-200px",color:"white",fontSize:"50px"}}>WELCOME TO<span style={{color:"#ffa637"}}> ODDO</span></h1>
       </div>
+      
     </div>
   )
 }

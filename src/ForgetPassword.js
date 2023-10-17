@@ -4,9 +4,7 @@ import { Link } from 'react-router-dom'
 function ForgetPassword() {
   return (
     <div className='main'>
-       <Link to="/Home">
-      <i class="fa fa-fast-backward" aria-hidden="true"></i>
-      </Link>
+      
         <div className='main1'>
           <img className='img50' src='img-23.png'/>
       <div className='mainb'>

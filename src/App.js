@@ -12,13 +12,18 @@ import Team from './Team';
 import Service from './Service';
 import About from './About'
 import Faq from './Faq';
+import Logon from './Logon';
+import WebPage from './WebPage';
+import LoginForm from './LoginForm';
 
 function App() {
   return (
     <Router>
+    <WebPage/>
     <div className="App">
     <Routes>
-      <Route path="/"element={<Login/>}/>
+      <Route path="/Login"element={<Login/>}/>
+      
       <Route path="/Signup"element={<Signup/>}/>
       <Route path="/ForgetPassword"element={<ForgetPassword/>}/>
       <Route path='/ContactUs'element={<ContactUs/>}/>
@@ -29,6 +34,9 @@ function App() {
       <Route path="/Service"element={<Service/>}/>
       <Route path="/About"element={<About/>}/>
       <Route path="/Faq"element={<Faq/>}/>
+      <Route path='/'element={<Logon/>}/>
+      <Route path='/LoginForm'element={<LoginForm/>}/>
+      {/* <Route path='/WebPage' element={<WebPage/>}/> */}
 
     </Routes>
     </div>
